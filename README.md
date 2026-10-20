@@ -23,4 +23,4 @@ Python, RDKit, pandas and scikit-learn, with Claude Code as a pair programmer. I
 
 ## Contact
 
-[Demmy Yu] · [LinkedIn](https://www.linkedin.com/in/demmyyu)
+Demmy Yu · [LinkedIn](https://www.linkedin.com/in/demmyyu)
