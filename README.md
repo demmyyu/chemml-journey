@@ -1,22 +1,26 @@
 # chemml-journey
 
-I'm a synthetic organic chemist (PhD in total synthesis) learning Python, cheminformatics, and machine learning. This repository documents that work, one notebook at a time.
+**A synthetic organic chemist learning machine learning, one notebook at a time.**
 
-The notebooks start with Python and RDKit basics and build towards machine learning on molecular data. Every example uses public molecules from PubChem, ChEMBL, published papers, or textbooks.
+I'm a PhD candidate at the Technical University of Munich, working on natural product synthesis using a photochemical key step.
 
-## Notebooks
+Machine learning and cheminformatics are a new field for me, and I'm enjoying them a lot. So I'm putting in extra hours on weekends to learn them properly, and this repository is my learning log, kept in public.
 
-| # | Notebook | Topics |
-|---|---|---|
-| 01 | [First molecules](01_first_molecules.ipynb) | SMILES parsing, drawing structures, molecular formula, average and exact mass |
+## What's here
 
-## Setup
+| Notebook | What it does |
+|---|---|
+| `01_first_molecules.ipynb` | Turns SMILES strings into structures and calculates molecular weights with RDKit |
 
-The notebooks run in a conda environment named `chemml`:
+## Where this is going
 
-```bash
-conda activate chemml
-jupyter lab
-```
+1. **Predicting reaction yields.** Training models on a public high-throughput dataset of ~4,000 Buchwald–Hartwig couplings (Ahneman et al., *Science* 2018), and checking whether what the model learns matches a chemist's intuition.
+2. **AI retrosynthesis vs. the literature.** Running AiZynthFinder on published natural product targets and comparing its routes with the real total syntheses. How does it handle complex ring systems and protecting groups?
 
-Main packages: [RDKit](https://www.rdkit.org/) and [matplotlib](https://matplotlib.org/).
+## How I work
+
+Python, RDKit, pandas and scikit-learn, with Claude Code as a pair programmer. I set the questions, read and question every step, and check the results against the chemistry. The instructions I give the AI are in `CLAUDE.md`.
+
+## Contact
+
+[Demmy Yu] · [LinkedIn](https://www.linkedin.com/in/demmyyu)
