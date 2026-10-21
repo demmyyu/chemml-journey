@@ -14,8 +14,9 @@ Machine learning and cheminformatics are a new field for me, and I'm enjoying th
 
 ## Where this is going
 
-1. **Predicting reaction yields.** Training models on a public high-throughput dataset of ~4,000 Buchwald–Hartwig couplings (Ahneman et al., *Science* 2018), and checking whether what the model learns matches a chemist's intuition.
-2. **AI retrosynthesis vs. the literature.** Running AiZynthFinder on published natural product targets and comparing its routes with the real total syntheses. How does it handle complex ring systems and protecting groups?
+1. **When do chemical descriptors help predict yields?** Using a public high-throughput dataset of ~4,000 Pd-catalysed Buchwald–Hartwig aminations (Ahneman et al., *Science* 2018), I compare models trained on chemical descriptors, on simple component labels and on random numbers, following the debate in Chuang & Keiser (*Science* 2018). The real test is predicting additives and aryl halides the model has never seen.
+2. **How many experiments does it take to find the best conditions?** A simulated optimisation campaign on the same dataset: random screening vs. model-guided experiment selection vs. a strategy I design as a chemist.
+3. **Where does AI retrosynthesis fail on natural products?** Running AiZynthFinder on about 10 published natural products and comparing its routes with the real total syntheses. Which strategic steps does it miss: photochemistry, protecting groups, late-stage oxidations?
 
 ## How I work
 
