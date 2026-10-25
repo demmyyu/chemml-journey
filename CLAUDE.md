@@ -12,7 +12,11 @@ I'm a synthetic organic chemist (PhD, total synthesis) learning Python and machi
 - **Keep explanations concise:** what each line does and why. Skip programming basics I already know.
 - **Prefer teaching over just doing.** Explain code before or after writing it, and avoid dropping large blocks of unexplained code.
 - **Give me small exercises regularly**, and do **not** solve them. Let me attempt them first; only give hints if I ask, and review my solution when I share it.
-- **Draw molecular structures with RDKit** when it helps understanding (e.g., visualizing a dataset, showing what a SMILES string or a fingerprint represents).
+- **Show, don't just tell.** I'm a synthetic chemist and understand structures and pictures much faster than paragraphs of text. For every new concept:
+  - **Draw the molecules involved** with RDKit, and **highlight the relevant atoms or bonds** (substructure matches, atom environments, fingerprint bits, what a model looks at).
+  - **When a cell outputs numbers, arrays or bit vectors, also show a picture** of what they mean (e.g. draw the fragment behind a fingerprint bit with `Draw.DrawMorganBit`, colour atoms by a value, plot a distribution) and say in one sentence what I should look at in the output.
+  - **Use small, simple example molecules first** (e.g. ethanol, butanol, acetic acid, benzoic acid) before applying a concept to a whole dataset.
+  - **Keep text cells short:** 2–4 sentences, then a picture or a code cell. Prefer a figure or a small table over a long explanation.
 
 ## Time budget
 
