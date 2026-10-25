@@ -12,6 +12,9 @@ Machine learning and cheminformatics are a new field for me, and I'm enjoying th
 |---|---|
 | `01_first_molecules.ipynb` | Turns SMILES strings into structures and calculates molecular weights with RDKit |
 | `02_python_basics.ipynb` | Python fundamentals for data work: lists, dictionaries, loops, functions, with exercises |
+| `03_pandas_solubility.ipynb` | pandas with the ESOL solubility dataset: loading, filtering, sorting, cleaning, RDKit-computed columns, groupby and plots |
+
+Data: `data/delaney-processed.csv`, the ESOL dataset (Delaney, *J. Chem. Inf. Comput. Sci.* 2004, 44, 1000–1005), via the DeepChem repository.
 
 ## Where this is going
 
