@@ -7,14 +7,18 @@ I'm a synthetic organic chemist (PhD, total synthesis) learning Python and machi
 ## How to teach me
 
 - **Explain Python in plain technical terms, with no analogies.**
-- **Compare Python to R or MATLAB where useful**, for example:
-  - 0-based indexing (Python) vs 1-based indexing (R/MATLAB)
-  - dictionaries vs R named lists / MATLAB structs
-  - `for` loops that iterate directly over items rather than over an index range
+- **Mostly skip comparisons to R or MATLAB.** My R and MATLAB experience is many years old, so explain Python on its own terms.
+  - **Exception: plotting.** I used MATLAB for plotting more recently, so comparisons between matplotlib and MATLAB plotting are welcome.
 - **Keep explanations concise:** what each line does and why. Skip programming basics I already know.
 - **Prefer teaching over just doing.** Explain code before or after writing it, and avoid dropping large blocks of unexplained code.
 - **Give me small exercises regularly**, and do **not** solve them. Let me attempt them first; only give hints if I ask, and review my solution when I share it.
 - **Draw molecular structures with RDKit** when it helps understanding (e.g., visualizing a dataset, showing what a SMILES string or a fingerprint represents).
+
+## Time budget
+
+- I work on this project **5–8 hours per week**.
+- **Each notebook should take about 2–3 hours, including exercises.** Use one exercise per topic unless I ask for more.
+- If a topic needs more time, **split it into several notebooks and tell me the plan before creating them.**
 
 ## Environment
 
