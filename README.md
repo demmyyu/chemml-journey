@@ -13,14 +13,15 @@ Machine learning and cheminformatics are a new field for me, and I'm enjoying th
 | `01_first_molecules.ipynb` | Turns SMILES strings into structures and calculates molecular weights with RDKit |
 | `02_python_basics.ipynb` | Python fundamentals for data work: lists, dictionaries, loops, functions, with exercises |
 | `03_pandas_solubility.ipynb` | pandas with the ESOL solubility dataset: loading, filtering, sorting, cleaning, RDKit-computed columns, groupby and plots |
+| `04_rdkit_similarity.ipynb` | Substructure search with SMARTS, Morgan fingerprints, Tanimoto similarity and a similarity search on ESOL |
 
 Data: `data/delaney-processed.csv`, the ESOL dataset (Delaney, *J. Chem. Inf. Comput. Sci.* 2004, 44, 1000–1005), via the DeepChem repository.
 
 ## Where this is going
 
 1. **When do chemical descriptors help predict yields?** Using a public high-throughput dataset of ~4,000 Pd-catalysed Buchwald–Hartwig aminations (Ahneman et al., *Science* 2018), I compare models trained on chemical descriptors, on simple component labels and on random numbers, following the debate in Chuang & Keiser (*Science* 2018). The real test is predicting additives and aryl halides the model has never seen.
-2. **How many experiments does it take to find the best conditions?** A simulated optimisation campaign on the same dataset: random screening vs. model-guided experiment selection vs. a strategy I design as a chemist.
-3. **Where does AI retrosynthesis fail on natural products?** Running AiZynthFinder on about 10 published natural products and comparing its routes with the real total syntheses. Which strategic steps does it miss: photochemistry, protecting groups, late-stage oxidations?
+2. **Where does AI retrosynthesis fail on natural products?** Running AiZynthFinder on about 10 published natural products and comparing its routes with the real total syntheses. Which strategic steps does it miss: photochemistry, protecting groups, late-stage oxidations?
+3. **How many experiments does it take to find the best conditions?** A simulated optimisation campaign on the Buchwald–Hartwig dataset from project 1: random screening vs. model-guided experiment selection vs. a strategy I design as a chemist.
 
 ## How I work
 
